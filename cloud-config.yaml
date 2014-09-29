@@ -15,5 +15,8 @@ coreos:
       command: start
     - name: fleet.service
       command: start
+  users:
+    - name: coreos
+    
   ssh_authorized_keys:
     - ssh-rsa ABCDB3abcdefghijklmnopqrstuvwxyz7890/zabcdefghijklmnopqrstuvwxyzwQPMa5N3Gc0Gum6J17tYbmOemXkgWcrSC+qmeoptjZACabcdefghijklmnopqrstuvwxyzI3J/Mi/swtn1abcdefghijklmnopqrstuvwxyzdefghijklmnopqrstuvwxyzXQjIGW33kHMrXLYLabcdefghijklmnopqrstuvwxyzq0Bvq0tyyVKlabcdefghijklmnopqrstuvwxyzb5X2IjdFIkl8tKl9u8FyoFv+1234567890QKI5QbabcdefghijklmnopqrstuvwxyzHpr0PeIu2GgWUu/2Te0YWRabcdefghijklmnopqrstuvwxyzc/TODInyz5w64dDYDZ1234567890 core@dockcore.com
